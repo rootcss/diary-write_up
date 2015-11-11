@@ -1,0 +1,118 @@
+	@font-face{
+		font-family: 'roboto';
+		src:url("../Roboto.ttf");
+	}
+	body{
+		margin: 0px auto;
+		font-family: roboto;
+		font-weight: bold;
+		background: #fafafa;
+	}
+	#wrapper{
+		margin: 0px auto;
+		width: 1200px;
+		min-height: 700px;
+	}
+	#header{
+		margin: 0px auto;
+		width: 430px;
+		height: 40px;
+		background: #eee;
+		font-size: 20px;
+		text-align: center;
+		padding-top: 10px;
+		font-weight: bold;
+		border-radius: 0px 0px 60px 60px;
+	}
+	#container{
+		margin: 0px auto;
+		width: 1200px;
+		height: 600px;
+	}
+	#footer{
+		margin: 0px auto;
+		width: 1200px;
+		height: 0px;
+		background: #fafafa;
+	}
+	#left{
+		float: left;
+		width: 689px;
+		height: 590px;
+		padding: 5px;	
+		border-right: 1px solid #ccc;		
+	}
+	#right{
+		float: right;
+		width: 480px;
+		height: 600px;
+		background: #fafafa;
+		overflow-y:auto;
+	}
+	#right a{
+		text-decoration: none;
+		color: #6C7A89;
+	}
+	#main_field{		
+	}
+	#date_field{
+		margin-top: 10px;
+	}
+	#post_field{
+		margin-top: 10px;
+		text-align: justify;
+	}
+	#submit{
+		padding: 6px;
+		font-size: 16px;
+		margin-top: 7px;
+		width: 75px;
+		height: 20px;
+		box-shadow: 0px 0px 10px #ccc;
+		cursor: pointer;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+	#submit:hover{
+		color: red;
+		background: #eee;
+	}
+	#main_field input{
+		border: 1px solid #ccc;
+		width: 600px;
+		font-size: 18px;
+		padding: 5px;
+		font-family: roboto;
+		font-weight: bold;
+		border-radius: 3px;						
+	}
+	#date_field input{
+		border: 0px;
+		padding: 5px;
+		font-size: 18px;
+		font-family: roboto;		
+		font-weight: bold;
+		border: 1px solid #ccc;
+		border-radius: 3px;				
+	}
+	textarea{
+		height: 450px;
+		width:600px;
+		margin: 0px auto;
+		font-size: 14px;
+		font-family: roboto;
+		color: black;
+		font-weight: bold;
+		padding: 5px;		
+		border: 1px solid #ccc;	
+		border-radius: 3px;	
+		resize:none;
+		margin-left: 44px;
+	}
+	#left iframe{
+		border: 0px;
+		width: 689px;
+		height: 590px;
+		padding: 5px;
+		overflow-y:auto; 
+	}
